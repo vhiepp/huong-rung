@@ -21,7 +21,7 @@ body {
   --general-txt-color-outstanding: #50D100;
   --general-txt-font-outstanding: "Lobster", sans-serif;
   --general-box-shadow-color: #0000002b;
-  --header-height: 56px;
+  --header-height: 48px;
   --header-bg-color: #F8FFE9;
   --area-intro-padding-top: 3.5rem;
 }
@@ -89,7 +89,7 @@ body {
 .header_right .navigate li {
   list-style: none;
 }
-.header_right .navigate li a {
+.header_right .navigate li > a {
   font-size: 18px;
   font-weight: 600;
   text-decoration: none;
@@ -148,6 +148,7 @@ body {
   /*flex-direction: column;*/
   /*align-items: stretch;*/
   /*justify-content: flex-start;*/
+    min-height: 100vh;
 }
 #content #content_intro {
   padding-top: 2.6rem;
@@ -315,7 +316,7 @@ body {
     padding-bottom: 0;
 }
 #content #content_contact {
-  padding: var(--area-intro-padding-top) 0;
+  padding: var(--area-intro-padding-top) 0 .8rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -553,7 +554,7 @@ body {
 }
 
 .content_area-intro.video {
-  padding: var(--area-intro-padding-top) 0;
+  padding: 0;
 }
 .content_area-intro.video .video {
   width: 100%;
@@ -651,7 +652,7 @@ body {
 }
 
 .content_map {
-    padding: var(--area-intro-padding-top) 0;
+    padding: 0 0 var(--area-intro-padding-top) 0;
 }
 
 #footer {
@@ -704,6 +705,53 @@ body {
 
 .call-btn-fixed span {
     color: #fff;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown::before {
+    content: "";
+    position: absolute;
+    top: 16px;
+    right: -14px;
+    border: solid transparent;
+    border-width: 6px;
+    border-top-color: #4CAF50; /* Màu nền của dropdown button */
+    transform: translateY(-50%);
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    min-width: 100px;
+    width: max-content;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+    font-size: .9rem;
+    padding: .3rem .8rem;
+    text-decoration: none;
+    display: block;
+    color: var(--general-txt-color-outstanding);
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 @media screen and (min-width: 769px) {
@@ -761,6 +809,10 @@ body {
 
     #footer .footer_right {
         text-align: left;
+    }
+
+    :root {
+        --header-height: 56px;
     }
 
 }

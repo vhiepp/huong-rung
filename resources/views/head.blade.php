@@ -1,5 +1,3 @@
-<title>Hương Rừng</title>
-
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 
 <link rel="stylesheet" href="/assets/css/index.css" />
@@ -12,3 +10,9 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone">
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+@if(isset($title))
+    <title>{{$title}} | Nhà hàng, Khách sạn Hương Rừng HomeStay</title>
+@else
+    <title>Nhà hàng, Khách sạn Hương Rừng HomeStay</title>
+@endif

@@ -10,9 +10,18 @@
         </div>
         <div class="header_right">
             <ul class="navigate is-desktop is-hidden-mobile">
-                <li><a href="/nha-hang">Nhà hàng</a></li>
+                <li class="dropdown">
+                    <a href="/nha-hang">Nhà hàng</a>
+                    <div class="dropdown-content">
+                        <a href="/khu-hoi-truong-to-chuc-tiec">Khu tiệc (hội trường)</a>
+                        <a href="/khu-phong-lanh">Khu phòng lạnh</a>
+                        <a href="/khu-san-vuon">Khu sân vườn</a>
+                        <a href="/mon-an-noi-bat">Món ăn</a>
+                    </div>
+                </li>
                 <li><a href="/nha-nghi">Nhà nghỉ</a></li>
-                <li><a href="/lien-he">Liên hệ với chúng tôi</a></li>
+                <li><a href="/mon-an-noi-bat">Món ăn</a></li>
+                <li><a href="/lien-he-chung-toi">Liên hệ chúng tôi</a></li>
             </ul>
             <div class="menu-icon is-mobile is-hidden-tablet">
                 <span class="material-icons">menu</span>
@@ -32,7 +41,7 @@
                 <ul>
                     <li><a href="/nha-hang">Nhà hàng</a></li>
                     <li><a href="/nha-nghi">Nhà nghỉ</a></li>
-                    <li><a href="/lien-he">Liên hệ với chúng tôi</a></li>
+                    <li><a href="/lien-he-chung-toi">Liên hệ chúng tôi</a></li>
                 </ul>
             </div>
         </div>

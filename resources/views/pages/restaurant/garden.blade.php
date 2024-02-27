@@ -2,6 +2,6 @@
 
 @section('content')
     <div id="content">
-        @include('pages.contact.form')
+        san vuon
     </div>
 @endsection
