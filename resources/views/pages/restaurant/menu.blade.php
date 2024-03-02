@@ -25,7 +25,7 @@
                                 <span class="material-icons">arrow_forward</span>
                             </a>
                             <a href="#lau-hai-san">
-                                Lẩu cá lóc
+                                Lẩu hải sản
                                 <span class="material-icons">arrow_forward</span>
                             </a>
                         </div>

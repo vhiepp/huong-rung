@@ -23,16 +23,6 @@
         </div>
         <div class="contact_form">
             <div class="contact_form__left">
-                {{--                        <div class="left_row inline">--}}
-                {{--                            <div class="input-cluster">--}}
-                {{--                                <label for="">Số điện thoại</label>--}}
-                {{--                                <input type="text" name="phone" id="" placeholder="Số điện thoại của bạn là gì?">--}}
-                {{--                            </div>--}}
-                {{--                            <div class="input-cluster">--}}
-                {{--                                <label for="">Danh xưng</label>--}}
-                {{--                                <input type="text" name="nickname" id="" placeholder="Chúng tôi nên gọi bạn như thế nào?">--}}
-                {{--                            </div>--}}
-                {{--                        </div>--}}
                 <div class="left_row">
                     <div class="input-cluster">
                         <label for="">Số điện thoại</label>
@@ -54,7 +44,7 @@
                 <div class="left_row">
                     <div class="input-cluster">
                         <label for="">Nhu cầu của bạn</label>
-                        <textarea name="desc" id="" rows="3" resize="false"></textarea>
+                        <textarea name="desc" id="" rows="3" resize="false" placeholder="Ví dụ: đặt phòng, đặt tiệc,..."></textarea>
                     </div>
                 </div>
                 <button type="button" class="form-button">Gửi</button>

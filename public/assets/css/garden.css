@@ -1,0 +1,92 @@
+.content_garden_intro {
+    padding: var(--area-intro-padding-top) 0;
+    min-height: 676px;
+    background: #FFFFFF;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.content_garden_intro::after, .content_garden_intro::before {
+    content: "";
+    position: absolute;
+    width: 1500px;
+    height: 800px;
+    top: -80px;
+    left: 830px;
+    border-top-left-radius: 400px;
+    border-bottom-left-radius: 400px;
+
+    background-size: cover;
+}
+.content_garden_intro::after {
+    background-image: url("/assets/images/garden/garden-1-hd.png");
+    z-index: 0;
+}
+.content_garden_intro::before {
+    background: #1B1B1B;
+    opacity: 0.3;
+    z-index: 1;
+}
+.content_garden_intro__left {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.content_garden_intro__left .garden_title {
+    font-family: Lobster, sans-serif;
+    font-weight: 400;
+    line-height: 6rem;
+    letter-spacing: 0;
+    text-align: left;
+    color: #4AAD0D;
+    font-size: 6rem;
+}
+.content_garden_intro__left .garden_desc {
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-align: left;
+    margin-top: 2rem;
+    margin-bottom: 1.8rem;
+}
+.content_garden_intro__left .garden_contact {
+    margin-top: .3rem;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.content_garden_intro__left .garden_contact .button {
+    color: #FFFFFF;
+    border-radius: .4rem;
+    background: #D14B00;
+    font-family: Montserrat, sans-serif;
+    font-size: .9rem;
+    font-weight: 500;
+    text-align: center;
+    padding: .5rem 1.3rem;
+}
+.content_garden_intro__left .garden_contact .garden_contact__phone {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.content_garden_intro__left .garden_contact .garden_contact__phone span {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4AAD0D;
+    border: 2px solid #4AAD0D;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+}
+.content_garden_intro__left .garden_contact .garden_contact__phone p {
+    font-family: Montserrat, sans-serif;
+    font-size: .9rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-align: left;
+    color: #50D100;
+}
