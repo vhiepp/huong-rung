@@ -172,9 +172,6 @@
                 </div>
             </div>
         </div>
-        <div class="content_area-intro video">
-            <video class="video" autoplay muted src="./assets/videos/intro-2.mp4"></video>
-        </div>
         <div class="container is-max-widescreen">
             <div class="content_area-intro motel">
                 <div class="motel_title-area">

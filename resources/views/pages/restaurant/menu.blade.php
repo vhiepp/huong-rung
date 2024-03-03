@@ -162,8 +162,8 @@
                 </script>
             </div>
             <div class="container is-max-widescreen">
-                <h2 class="title-2" style="text-align: left">Các món ăn dân dã</h2>
-                <p class="desc" style="text-align: left">Các món ăn dân dã, đạm bạc chỉ thấy ở những đồng quê</p>
+                <h2 class="title-2">Các món ăn dân dã</h2>
+                <p class="desc">Các món ăn dân dã, đạm bạc chỉ thấy ở những đồng quê</p>
                 <div class="columns is-multiline is-variable is-2-mobile is-2-tablet is-mobile" style="justify-content: center">
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop is-one-fifth-widescreen">
                         <div class="food-item">
@@ -198,8 +198,8 @@
                 </div>
             </div>
             <div class="container is-max-widescreen">
-                <h2 class="title-2" style="text-align: right">Món gỏi, món khô</h2>
-                <p class="desc" style="text-align: right">Tuy đơn giản, nhưng ngon miệng</p>
+                <h2 class="title-2">Món gỏi, món khô</h2>
+                <p class="desc">Tuy đơn giản, nhưng ngon miệng</p>
                 <div class="columns is-multiline is-variable is-2-mobile is-2-tablet is-mobile" style="justify-content: center">
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop is-one-fifth-widescreen">
                         <div class="food-item">
@@ -270,8 +270,8 @@
                 </div>
             </div>
             <div class="container is-max-widescreen">
-                <h2 class="title-2" style="text-align: left">Món đồng, hải sản</h2>
-                <p class="desc" style="text-align: left">Cá, lươn, cua, tôm, tép, mực, nghêu, sò, ốc, hến, ...</p>
+                <h2 class="title-2">Món đồng, hải sản</h2>
+                <p class="desc">Cá, lươn, cua, tôm, tép, mực, nghêu, sò, ốc, hến, ...</p>
                 <div class="columns is-multiline is-variable is-2-mobile is-2-tablet is-mobile" style="justify-content: center">
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop is-one-fifth-widescreen">
                         <div class="food-item">
@@ -306,8 +306,8 @@
                 </div>
             </div>
             <div class="container is-max-widescreen">
-                <h2 class="title-2" style="text-align: right">Đồ rừng</h2>
-                <p class="desc" style="text-align: right">Đủ các món chim, dê, nai, đà điểu, rắn, baba, ...</p>
+                <h2 class="title-2">Đồ rừng</h2>
+                <p class="desc">Đủ các món chim, dê, nai, đà điểu, rắn, baba, ...</p>
                 <div class="columns is-multiline is-variable is-2-mobile is-2-tablet is-mobile" style="justify-content: center">
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop is-one-fifth-widescreen">
                         <div class="food-item">

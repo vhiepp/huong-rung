@@ -90,8 +90,8 @@ body {
   list-style: none;
 }
 .header_right .navigate li > a {
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 400;
   text-decoration: none;
   color: var(--general-txt-color-outstanding);
 }
