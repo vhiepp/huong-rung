@@ -24,6 +24,8 @@
     max-width: 790px;
     padding: 1rem 1.6rem;
     margin-bottom: 60px;
+    margin-left: .3rem;
+    margin-right: .3rem;
 }
 
 .content_hall_intro_desc h1 {

@@ -97,11 +97,11 @@
             <div class="content_overview-intro__brand-name-frame">
                 <img src="./assets/images/brand-name.png" alt=""  >
             </div>
-            <div class="content_overview-intro__desc-area">
-                <p>Thành phố chật chội, thiếu không gian yên tỉnh!</p>
-                <p>Đừng lo! Đã có Hương Rừng lo. Hương Rừng cho bạn hương của núi rừng của đồng quê ngay giữa lòng thành phố</p>
-                <p>nhưng vẫn đảm bảo đầy đủ tiện nghi cho bạn giải trí thoải mái nhất!</p>
-            </div>
+{{--            <div class="content_overview-intro__desc-area">--}}
+{{--                <p>Thành phố chật chội, thiếu không gian yên tỉnh!</p>--}}
+{{--                <p>Đừng lo! Đã có Hương Rừng lo. Hương Rừng cho bạn hương của núi rừng của đồng quê ngay giữa lòng thành phố</p>--}}
+{{--                <p>nhưng vẫn đảm bảo đầy đủ tiện nghi cho bạn giải trí thoải mái nhất!</p>--}}
+{{--            </div>--}}
             <p class="content_overview-intro__desc-outstanding">
                 NHÀ HÀNG - NHÀ NGHỈ - PHÒNG LẠNH - SÂN VƯỜN - ĐẶC TIỆC
             </p>

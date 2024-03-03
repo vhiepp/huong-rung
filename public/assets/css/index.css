@@ -21,7 +21,7 @@ body {
   --general-txt-color-outstanding: #50D100;
   --general-txt-font-outstanding: "Lobster", sans-serif;
   --general-box-shadow-color: #0000002b;
-  --header-height: 48px;
+  --header-height: 38px;
   --header-bg-color: #F8FFE9;
   --area-intro-padding-top: 3.5rem;
 }
@@ -230,13 +230,13 @@ body {
     margin-top: 2rem;
 
 }
-#content #content_intro .content_intro__slide swiper-container {
+.content_intro__slide swiper-container {
   width: 100%;
   height: 100%;
   z-index: 10;
   padding: 5px 0.3rem;
 }
-#content #content_intro .content_intro__slide swiper-slide {
+.content_intro__slide swiper-slide {
   text-align: center;
   font-size: 18px;
   background: transparent;
@@ -245,7 +245,7 @@ body {
   align-items: center;
   box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.3254901961);
 }
-#content #content_intro .content_intro__slide swiper-slide .slide-item {
+.content_intro__slide swiper-slide .slide-item {
   width: 100%;
   height: 100%;
   border-radius: 5px;
@@ -253,7 +253,7 @@ body {
   background-color: #fff;
   overflow: hidden;
 }
-#content #content_intro .content_intro__slide swiper-slide .slide-item img {
+.content_intro__slide swiper-slide .slide-item img {
   display: block;
   border-radius: 5px;
   height: 100%;
@@ -686,6 +686,36 @@ body {
     margin-right: 0;
 }
 
+@keyframes vibrate {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(-1px, -1px);
+    }
+    50% {
+        transform: translate(1px, 1px);
+    }
+    75% {
+        transform: translate(-1px, 1px);
+    }
+    100% {
+        transform: translate(1px, -1px);
+    }
+}
+
+@keyframes shake {
+    0%, 70% {
+        transform: translate(0, 0);
+    }
+    10%, 30%, 50% {
+        transform: translate(-1px, 0);
+    }
+    20%, 40%, 60% {
+        transform: translate(1px, 0);
+    }
+}
+
 .call-btn-fixed {
     width: 50px;
     height: 50px;
@@ -701,6 +731,8 @@ body {
     z-index: 30;
     right: 1rem;
     bottom: 1.5rem;
+
+    animation: shake 1s infinite;
 }
 
 .call-btn-fixed span {
@@ -812,7 +844,7 @@ body {
     }
 
     :root {
-        --header-height: 56px;
+        --header-height: 48px;
     }
 
 }

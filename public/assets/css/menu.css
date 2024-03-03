@@ -3,7 +3,17 @@
 }
 .content_menu_intro {
     padding: var(--area-intro-padding-top) 0;
-    background: #F9F9F9;
+    background-image: url("/assets/images/menu/thumb.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.content_menu_intro::before {
+    position: absolute;
+    inset: 0;
+    content: "";
+    background: #1B1B1B;
+    opacity: 0.85;
 }
 .content_menu_intro__left {
     padding-top: 3rem;
@@ -15,7 +25,7 @@
     line-height: 6rem;
     letter-spacing: 0;
     text-align: left;
-    color: #4AAD0D;
+    color: #50D100;
     font-size: 6rem;
 }
 .content_menu_intro__left .menu_desc {
@@ -25,14 +35,15 @@
     letter-spacing: 0;
     text-align: left;
     margin-top: 1.8rem;
+    color: #EEEEEE;
 }
-.content_menu_intro__left .menu_contact {
+.menu_contact {
     margin-top: .3rem;
     display: flex;
     align-items: center;
     gap: 20px;
 }
-.content_menu_intro__left .menu_contact .button {
+.menu_contact .button {
     color: #FFFFFF;
     border-radius: .4rem;
     background: #D14B00;
@@ -42,12 +53,12 @@
     text-align: center;
     padding: .5rem 1.3rem;
 }
-.content_menu_intro__left .menu_contact .menu_contact__phone {
+.menu_contact .menu_contact__phone {
     display: flex;
     align-items: center;
     gap: 4px;
 }
-.content_menu_intro__left .menu_contact .menu_contact__phone span {
+.menu_contact .menu_contact__phone span {
     font-size: 1rem;
     display: flex;
     justify-content: center;
@@ -58,7 +69,7 @@
     width: 26px;
     height: 26px;
 }
-.content_menu_intro__left .menu_contact .menu_contact__phone p {
+.menu_contact .menu_contact__phone p {
     font-family: Montserrat, sans-serif;
     font-size: .9rem;
     font-weight: 600;
@@ -127,10 +138,15 @@
 }
 .content_menu_roasted_pork {
     padding: var(--area-intro-padding-top) 0;
-    background: #F1F1F1;
+    background: #F1F1D2;
+}
+.content_menu_roasted_pork_left {
+    position: relative;
 }
 .content_menu_roasted_pork_left img {
     width: 100%;
+    /*position: relative;*/
+    display: block;
 }
 .content_menu_roasted_pork_right {
     padding-left: 1.6rem;
@@ -161,9 +177,43 @@
 .content_menu_roasted_pork_left .desc-2 {
     margin-top: 0;
 }
+@keyframes scale {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+.content_menu_roasted_pork_left::after {
+    position: absolute;
+    content: "";
+    top: 5px;
+    right: 5px;
+    width: 45px;
+    height: 45px;
+    background-image: url("/assets/images/icon/dac-biet.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation: scale 1.8s infinite;
+}
 .content_menu_hot_pot {
+    position: relative;
     padding: var(--area-intro-padding-top) 0;
-    background: #F9F9F9;
+    /*background: #F9F9F9;*/
+    background-image: url("/assets/images/menu/thumb2.png");
+    background-repeat: space;
+    background-size: cover;
+
+}
+.content_menu_hot_pot::before {
+    position: absolute;
+    content: "";
+    inset: 0;
+
+    background: #1B1B1B;
+    opacity: 0.85;
 }
 .hot_pot_left_img {
     /*max-height: 500px;*/
@@ -184,9 +234,25 @@
     font-family: Lobster, sans-serif;
     font-size: 3.6rem;
     font-weight: 400;
-    color: #4AAD0D;
+    color: #50D100;
     text-align: center;
-    padding: 1.8rem 0;
+    padding: 1.8rem 0 0 0;
+    margin-bottom: .3rem;
+}
+.content_menu_hot_pot .title-2 {
+    font-family: Lobster, sans-serif;
+    font-size: 2.8rem;
+    font-weight: 400;
+    color: #50D100;
+    text-align: center;
+    padding: 1.8rem 0 0 0;
+    margin-bottom: 0;
+}
+.content_menu_hot_pot .desc {
+    color: #EEEEEE;
+    text-align: center;
+    margin-bottom: 1.2rem;
+    font-size: 1.2rem;
 }
 .hot_pot_desc {
     display: flex;
@@ -202,4 +268,33 @@
     font-weight: 400;
     text-align: left;
     margin-bottom: 2rem;
+    color: #EEEEEE;
+}
+.content_intro__slide swiper-slide .slide-item {
+    width: 100%;
+    height: 180px;
+    border: 4px solid #F1F1D2;
+    border-radius: 8px;
+}
+.content_intro__slide swiper-slide .slide-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.food-item {
+
+
+}
+.food-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border: 4px solid #F1F1D2;
+    border-radius: 8px;
+}
+.food-item h6 {
+    color: #EEEEEE;
+    font-family: Lobster, sans-serif;
+    font-size: 1.4rem;
 }
