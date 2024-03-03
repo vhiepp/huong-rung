@@ -1,11 +1,9 @@
 <header id="header">
     <div class="header container is-max-widescreen">
         <div class="header_left">
-{{--            <div class="brand-logo-frame">--}}
-{{--                <img src="https://picsum.photos/id/250/200" alt="" srcset="" />--}}
-{{--            </div>--}}
             <div class="brand-name">
-                <a href="/" style="color: #4a4a4a;">Hương Rừng <span style="color: #50D100; font-size: 22px;">HomeStay</span></a>
+{{--                <a href="/" style="color: #4a4a4a;">Hương Rừng <span style="color: #50D100; font-size: 22px;">HomeStay</span></a>--}}
+                <a href="/" style="color: #4a4a4a;">Hương Rừng</a>
             </div>
         </div>
         <div class="header_right">

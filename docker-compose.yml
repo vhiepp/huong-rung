@@ -1,0 +1,10 @@
+version: "3"
+services:
+  huongrung-website:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: huongrung-website
+    working_dir: /var/www/html
+    ports:
+      - "2081:80"

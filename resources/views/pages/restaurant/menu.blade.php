@@ -199,7 +199,7 @@
             </div>
             <div class="container is-max-widescreen">
                 <h2 class="title-2" style="text-align: right">Món gỏi, món khô</h2>
-                <p class="desc" style="text-align: right">Tuy đơn giản, nhưng rất ngon miệng</p>
+                <p class="desc" style="text-align: right">Tuy đơn giản, nhưng ngon miệng</p>
                 <div class="columns is-multiline is-variable is-2-mobile is-2-tablet is-mobile" style="justify-content: center">
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop is-one-fifth-widescreen">
                         <div class="food-item">

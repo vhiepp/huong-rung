@@ -657,7 +657,7 @@ body {
 
 #footer {
   padding: var(--area-intro-padding-top) 0;
-  background-color: #f4f4f4;
+  background-color: #F8FFE9;
   display: flex;
   flex-direction: row;
   align-items: center;
