@@ -913,3 +913,10 @@ body {
 .container {
     /*overflow: hidden;*/
 }
+.o-hidden {
+    overflow-x: hidden;
+}
+.columns.is-variable {
+    margin-left: 0;
+    margin-right: 0;
+}

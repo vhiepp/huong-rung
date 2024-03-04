@@ -107,12 +107,14 @@
             <p class="content_overview-intro__desc-outstanding">
                 NHÀ HÀNG - KHÁCH SẠN - PHÒNG LẠNH - SÂN VƯỜN - ĐẶC TIỆC
             </p>
-            <div class="contact-area columns">
-                <div class="column">
-                    <p>0868 657 765</p>
-                </div>
-                <div class="column">
-                    <p>nhahangkhachsanhuongrung@gmail.com</p>
+            <div class="contact-area">
+                <div class="columns">
+                    <div class="column">
+                        <p>0868 657 765</p>
+                    </div>
+                    <div class="column">
+                        <p>huongrung@gmail.com</p>
+                    </div>
                 </div>
             </div>
         </div>

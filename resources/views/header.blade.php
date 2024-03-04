@@ -1,5 +1,5 @@
 <header id="header">
-    <div class="header container is-max-widescreen">
+    <div class="header container is-max-widescreen o-hidden">
         <div class="header_left">
             <div class="brand-name">
 {{--                <a href="/" style="color: #4a4a4a;">Hương Rừng <span style="color: #50D100; font-size: 22px;">HomeStay</span></a>--}}
