@@ -909,3 +909,7 @@ body {
         padding: 6rem 0;
     }
 }
+
+.container {
+    overflow: hidden;
+}
