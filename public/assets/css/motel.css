@@ -120,13 +120,24 @@
 }
 .content_motel_section_img {
     padding: var(--area-intro-padding-top) 0;
-    background: #FFFFFF;
+    background: #F1F1D2;
 }
 .content_motel_detail {
     padding: 2rem 0;
+    background-image: url("/assets/images/motel/thumb2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 .content_motel_detail.img_left {
-    background: #EEEEEE;
+
+}
+.content_motel_detail::before {
+    position: absolute;
+    inset: 0;
+    content: "";
+    background: #1B1B1B;
+    opacity: 0.85;
 }
 .motel_detail {
     display: flex;
@@ -155,6 +166,7 @@
     font-size: 1.2rem;
     font-weight: 400;
     text-align: justify;
+    color: #EEEEEE;
 }
 @media screen and (max-width: 769px) {
     .content_motel_detail.img_left h3, .content_motel_detail.img_right h3, .motel_detail h3 {

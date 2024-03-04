@@ -25,17 +25,17 @@
                                 <span class="material-icons">arrow_forward</span>
                             </a>
                             <a href="#lau-hai-san">
-                                Lẩu hải sản
+                                Ẩm thực 3 miền
                                 <span class="material-icons">arrow_forward</span>
                             </a>
                         </div>
                     </div>
                     <div class="column content_menu_intro__right">
                         <div class="content-img">
-                            <img src="/assets/images/menu/1.png" class="img-2" />
+                            <img src="/assets/images/menu/slide/slide (10).png" class="img-2" />
                             <img src="/assets/images/menu/3.png" class="img-1" />
-                            <img src="/assets/images/menu/4.png" class="img-4" />
-                            <img src="/assets/images/menu/2.png" class="img-3" />
+                            <img src="/assets/images/menu/slide/slide (31).png" class="img-4" />
+                            <img src="/assets/images/menu/slide/slide (26).png" class="img-3" />
                             <img src="/assets/images/menu/5.png" class="img-5" />
                         </div>
                     </div>
@@ -275,68 +275,68 @@
                 <div class="columns is-multiline is-variable is-2-mobile is-2-tablet is-mobile" style="justify-content: center">
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop is-one-fifth-widescreen">
                         <div class="food-item">
-                            <img src="/assets/images/menu/com-mi-lau/com-chien-hai-san.png">
-                            <h6>Cơm chiên hải sản</h6>
+                            <img src="/assets/images/menu/dong-hai-san/nuong-ca.png">
+                            <h6>Cá nướng</h6>
                         </div>
                     </div>
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop is-one-fifth-widescreen">
                         <div class="food-item">
-                            <img src="/assets/images/menu/com-mi-lau/com-chay-kho-quet.png">
-                            <h6>Cơm cháy kho quẹt</h6>
+                            <img src="/assets/images/menu/dong-hai-san/tom.png">
+                            <h6>Tôm, tép</h6>
                         </div>
                     </div>
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop is-one-fifth-widescreen">
                         <div class="food-item">
-                            <img src="/assets/images/menu/com-mi-lau/mi-xao-bo.png">
-                            <h6>Mì xào bò</h6>
+                            <img src="/assets/images/menu/dong-hai-san/cua-gach.png">
+                            <h6>Cua, ghẹ</h6>
                         </div>
                     </div>
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop is-one-fifth-widescreen">
                         <div class="food-item">
-                            <img src="/assets/images/menu/com-mi-lau/lau-cua.png">
-                            <h6>Lẩu cua đồng</h6>
+                            <img src="/assets/images/menu/dong-hai-san/so-diep.png">
+                            <h6>Ốc, nghêu, sò</h6>
                         </div>
                     </div>
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop is-one-fifth-widescreen is-hidden-mobile">
                         <div class="food-item">
-                            <img src="/assets/images/menu/com-mi-lau/lau-ca-bop.png">
-                            <h6>Lẩu cá bớp</h6>
+                            <img src="/assets/images/menu/dong-hai-san/muc.png">
+                            <h6>Mực, bạch tuột</h6>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="container is-max-widescreen">
                 <h2 class="title-2">Đồ rừng</h2>
-                <p class="desc">Đủ các món chim, dê, nai, đà điểu, rắn, baba, ...</p>
+                <p class="desc">Đủ các món chim, dê, nai, đà điểu, rắn, ...</p>
                 <div class="columns is-multiline is-variable is-2-mobile is-2-tablet is-mobile" style="justify-content: center">
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop is-one-fifth-widescreen">
                         <div class="food-item">
-                            <img src="/assets/images/menu/goi-kho/goi-bo-ba-khia.png">
-                            <h6>Gỏi bò ba khía</h6>
+                            <img src="/assets/images/menu/rung/chim.png">
+                            <h6>Các loại chim</h6>
                         </div>
                     </div>
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop is-one-fifth-widescreen">
                         <div class="food-item">
-                            <img src="/assets/images/menu/goi-kho/goi-bong-sung.png">
-                            <h6>Gỏi bông súng</h6>
+                            <img src="/assets/images/menu/rung/de.png">
+                            <h6>Dê, nai</h6>
                         </div>
                     </div>
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop is-one-fifth-widescreen">
                         <div class="food-item">
-                            <img src="/assets/images/menu/goi-kho/goi-thai-hai-san.png">
-                            <h6>Gỏi thái hải sản</h6>
+                            <img src="/assets/images/menu/rung/da-dieu.png">
+                            <h6>Đà điểu</h6>
                         </div>
                     </div>
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop is-one-fifth-widescreen">
                         <div class="food-item">
-                            <img src="/assets/images/menu/goi-kho/kho-ca-keo.png">
-                            <h6>Khô cá kèo</h6>
+                            <img src="/assets/images/menu/rung/ran.png">
+                            <h6>Rắn ri, hổ hành</h6>
                         </div>
                     </div>
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop is-one-fifth-widescreen is-hidden-mobile">
                         <div class="food-item">
-                            <img src="/assets/images/menu/goi-kho/kho-ca-duoi.png">
-                            <h6>Khô cá đuối</h6>
+                            <img src="/assets/images/menu/rung/baba.png">
+                            <h6>Ba ba, cua đinh</h6>
                         </div>
                     </div>
                 </div>

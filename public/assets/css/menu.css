@@ -111,30 +111,40 @@
 .content_menu_intro__right .img-2 {
     position: absolute;
     z-index: 2;
-    left: -20px;
+    left: -10px;
     top: -20px;
-    width: 180px;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #F1F1D2;
 }
 .content_menu_intro__right .img-3 {
     position: absolute;
     z-index: 2;
-    right: -20px;
+    right: -10px;
     top: 0;
-    width: 200px;
+    width: 180px;
+    border: 6px solid #F1F1D2;
+    border-radius: .8rem;
 }
 .content_menu_intro__right .img-4 {
     position: absolute;
     z-index: 2;
-    bottom: -10px;
-    left: -10px;
-    width: 150px;
+    bottom: 0;
+    left: 10px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #F1F1D2;
 }
 .content_menu_intro__right .img-5 {
     position: absolute;
     z-index: 2;
-    right: 0;
-    bottom: -35px;
-    width: 230px;
+    right: 10px;
+    bottom: -50px;
+    width: 220px;
 }
 .content_menu_roasted_pork {
     padding: var(--area-intro-padding-top) 0;

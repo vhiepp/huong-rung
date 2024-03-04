@@ -3,17 +3,18 @@
         <div class="header_left">
             <div class="brand-name">
 {{--                <a href="/" style="color: #4a4a4a;">Hương Rừng <span style="color: #50D100; font-size: 22px;">HomeStay</span></a>--}}
-                <a href="/" style="color: #4a4a4a;">Hương Rừng</a>
+                <a href="/">Hương Rừng</a>
             </div>
         </div>
         <div class="header_right">
             <ul class="navigate is-desktop is-hidden-mobile">
-                <li><a href="/khu-hoi-truong-to-chuc-tiec">Hội trường</a></li>
-                <li><a href="/khu-phong-lanh">Phòng lạnh</a></li>
-                <li><a href="/khu-san-vuon">Sân vườn</a></li>
-                <li><a href="/mon-an-noi-bat">Món ăn</a></li>
-                <li><a href="/nha-nghi">Nhà nghỉ</a></li>
-                <li><a href="/lien-he-chung-toi">Liên hệ</a></li>
+                <li @isset($activePage) @if($activePage == 0) class="active" @endif @endisset><a href="/">Trang chủ</a></li>
+                <li @isset($activePage) @if($activePage == 1) class="active" @endif @endisset><a href="/khu-hoi-truong-to-chuc-tiec">Hội trường</a></li>
+{{--                <li @isset($activePage) @if($activePage == 2) class="active" @endif @endisset><a href="/khu-phong-lanh">Phòng lạnh</a></li>--}}
+                <li @isset($activePage) @if($activePage == 3) class="active" @endif @endisset><a href="/khu-san-vuon">Sân vườn</a></li>
+                <li @isset($activePage) @if($activePage == 4) class="active" @endif @endisset><a href="/mon-an-noi-bat">Món ăn</a></li>
+                <li @isset($activePage) @if($activePage == 5) class="active" @endif @endisset><a href="/nha-nghi">Nhà nghỉ</a></li>
+                <li @isset($activePage) @if($activePage == 6) class="active" @endif @endisset><a href="/lien-he-chung-toi">Liên hệ</a></li>
             </ul>
             <div class="menu-icon is-mobile is-hidden-tablet">
                 <span class="material-icons">menu</span>
@@ -31,9 +32,13 @@
             </div>
             <div class="navigate-mobile_bottom">
                 <ul>
-                    <li><a href="/nha-hang">Nhà hàng</a></li>
-                    <li><a href="/nha-nghi">Nhà nghỉ</a></li>
-                    <li><a href="/lien-he-chung-toi">Liên hệ</a></li>
+                    <li @isset($activePage) @if($activePage == 0) class="active" @endif @endisset><a href="/">Trang chủ</a></li>
+                    <li @isset($activePage) @if($activePage == 1) class="active" @endif @endisset><a href="/khu-hoi-truong-to-chuc-tiec">Hội trường</a></li>
+                    {{--                <li @isset($activePage) @if($activePage == 2) class="active" @endif @endisset><a href="/khu-phong-lanh">Phòng lạnh</a></li>--}}
+                    <li @isset($activePage) @if($activePage == 3) class="active" @endif @endisset><a href="/khu-san-vuon">Sân vườn</a></li>
+                    <li @isset($activePage) @if($activePage == 4) class="active" @endif @endisset><a href="/mon-an-noi-bat">Món ăn</a></li>
+                    <li @isset($activePage) @if($activePage == 5) class="active" @endif @endisset><a href="/nha-nghi">Nhà nghỉ</a></li>
+                    <li @isset($activePage) @if($activePage == 6) class="active" @endif @endisset><a href="/lien-he-chung-toi">Liên hệ</a></li>
                 </ul>
             </div>
         </div>

@@ -1,3 +1,16 @@
+<style>
+    .content_map {
+        padding-bottom: .8rem;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    .content_map a {
+        border: 4px solid #F1F1D2;
+        display: block;
+        border-radius: 1rem;
+        overflow: hidden;
+    }
+</style>
 <div class="container is-max-widescreen">
     <div id="content_contact">
         <h3 class="contact_title">Liên hệ với chúng tôi!</h3>
@@ -56,9 +69,9 @@
 {{--            </div>--}}
 {{--        </div>--}}
     </div>
-</div>
-<div class="container is-max-widescreen content_map">
-    <a href="https://maps.app.goo.gl/Thvfe6SSEQ6EgSbN7" target="_blank" style="display: block">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3889.027858028245!2d106.35012429081344!3d9.92518400539292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOcKwNTUnMzAuMSJOIDEwNsKwMjEnMDQuMCJF!5e0!3m2!1sfr!2s!4v1706952407154!5m2!1sfr!2s" width="100%" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </a>
+    <div class="content_map">
+        <a href="https://maps.app.goo.gl/Thvfe6SSEQ6EgSbN7" target="_blank" style="display: block; height: 480px">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3889.027858028245!2d106.35012429081344!3d9.92518400539292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOcKwNTUnMzAuMSJOIDEwNsKwMjEnMDQuMCJF!5e0!3m2!1sfr!2s!4v1706952407154!5m2!1sfr!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </a>
+    </div>
 </div>
