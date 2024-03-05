@@ -6,7 +6,7 @@
 
 @section('content')
     <div id="content">
-        <div class="content_motel_intro">
+        <div class="content_motel_intro" style="overflow: hidden">
             <div class="container is-max-widescreen">
                 <div class="columns motel_intro_sub ">
                     <div class="column is-half-tablet is-two-fifths-desktop motel_intro">
