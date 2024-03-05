@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('head')
-    <link rel="stylesheet" href="/assets/css/home.css" />
+    <link rel="stylesheet" href="/assets/css/{{$cssVersion}}/home.css" />
 @endsection
 
 @section('content')
@@ -14,18 +14,16 @@
                         <h1>Hương Rừng</h1>
                         <h2>HomeStay</h2>
                         <p>
-                            Thành phố chật chội, thiếu không gian yên tỉnh! <br />
-                            Đừng lo! Đã có
-                            Hương Rừng lo. Hương Rừng cho bạn hương của núi rừng của đồng quê
-                            ngay giữa lòng thành phố nhưng vẫn đảm bảo đầy đủ tiện nghi cho
-                            bạn giải trí thoải mái nhất!
+                            Chuyên phục vụ ăn uống, ẩm thực các món đặc trưng 3 miền.<br />
+                            Nhận đặt tiệc liên hoan, sinh nhật,... <br />
+                            Cho thuê phòng nghỉ cao cấp rộng rãi, thoáng mát, đầy đủ tiện nghi.
                         </p>
                     </div>
                 </div>
             </div>
             <div class="container is-max-widescreen" style="z-index: 10">
                 <div class="home_contact">
-                    <a class="button" href="tel:0373496609">Đặt tiệc, đặt phòng!</a>
+                    <a class="button" href="tel:02946500999">Đặt tiệc, đặt phòng!</a>
                     <a href="/lien-he-chung-toi" class="home_contact__phone">
                         <span class="material-icons">call</span>
                         <p>Liên hệ</p>
@@ -41,11 +39,40 @@
                         '/assets/images/slide/slide-1-min.jpg',
                         '/assets/images/slide/slide-2-min.jpg',
                         '/assets/images/slide/slide-3-min.jpg',
+                        '/assets/images/garden/san-vuon (4).jpg',
+                        '/assets/images/garden/san-vuon (5).jpg',
+                        '/assets/images/garden/san-vuon (6).jpg',
                         '/assets/images/slide/slide-4-min.jpg',
                         '/assets/images/slide/slide-5-min.jpg',
+                        '/assets/images/garden/san-vuon (7).jpg',
+                        '/assets/images/garden/san-vuon (8).jpg',
+                        '/assets/images/garden/san-vuon (9).jpg',
+                        '/assets/images/garden/san-vuon (10).jpg',
+                        '/assets/images/garden/san-vuon (11).jpg',
+                        '/assets/images/garden/san-vuon (12).jpg',
+                        '/assets/images/garden/san-vuon (13).jpg',
                         '/assets/images/slide/slide-6-min.jpg',
                         '/assets/images/slide/slide-7-min.jpg',
-                        '/assets/images/slide/slide-8-min.jpg'
+                        '/assets/images/slide/slide-8-min.jpg',
+                        '/assets/images/hall/slide/slide (10).png',
+                        '/assets/images/hall/slide/slide (7).png',
+                        '/assets/images/garden/san-vuon (1).jpg',
+                        '/assets/images/garden/san-vuon (2).jpg',
+                        '/assets/images/garden/san-vuon (3).jpg',
+                        '/assets/images/hall/slide/slide (13).png',
+                        '/assets/images/hall/slide/slide (12).png',
+                        '/assets/images/garden/san-vuon (14).jpg',
+                        '/assets/images/garden/san-vuon (15).jpg',
+                        '/assets/images/garden/san-vuon (16).jpg',
+                        '/assets/images/garden/san-vuon (17).jpg',
+                        '/assets/images/garden/san-vuon (18).jpg',
+                        '/assets/images/garden/san-vuon (19).jpg',
+                        '/assets/images/garden/san-vuon (20).jpg',
+                        '/assets/images/hall/slide/slide (9).png',
+                        '/assets/images/hall/slide/slide (15).png',
+                        '/assets/images/hall/slide/slide (11).png',
+                        '/assets/images/hall/slide/slide (14).png',
+                        '/assets/images/hall/slide/slide (16).png',
                     ];
 
                     const swiperEl = document.querySelector("swiper-container");
@@ -240,7 +267,7 @@
                         '/assets/images/menu/slide/slide (31).png',
                         '/assets/images/menu/slide/slide (32).png',
                         '/assets/images/menu/slide/slide (33).png',
-                        '/assets/images/menu/slide/slide (34).png',
+                        // '/assets/images/menu/slide/slide (34).png',
                         '/assets/images/menu/slide/slide (35).png',
                         '/assets/images/menu/slide/slide (36).png',
                         '/assets/images/menu/slide/slide (37).png',

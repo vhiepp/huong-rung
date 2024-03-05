@@ -2,6 +2,6 @@
 
 @section('content')
     <div id="content">
-        phong lanh
+        <p style="text-align: center; font-size: 2rem; font-family: Lobster, sans-serif">Đang cập nhật</p>
     </div>
 @endsection

@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('head')
-    <link rel="stylesheet" href="/assets/css/garden.css" />
+    <link rel="stylesheet" href="/assets/css/{{$cssVersion}}/garden.css" />
 @endsection
 
 @section('content')
@@ -9,11 +9,11 @@
         <div class="content_garden_intro">
             <div class="container is-max-widescreen">
                 <div class="columns is-desktop">
-                    <div class="column content_garden_intro__left is-half-desktop ">
+                    <div class="column content_garden_intro__left is-half-desktop">
                         <h1 class="garden_title">Sân vườn</h1>
-                        <p class="garden_desc">Mỗi món ăn là sự kết hợp tinh tế giữa hương vị truyền thống và nguyên liệu tươi ngon, đảm bảo mang đến cho thực khách trải nghiệm ẩm thực đích thực và độc đáo.</p>
+                        <p class="garden_desc">Sân vườn rộng rãi, sạch sẽ, thoáng gió. Các Tum mái lá mát mẻ, cảm giác hòa mình với thiên nhiên.</p>
                         <div class="garden_contact">
-                            <a class="button" href="tel:0373496609">Gọi ngay!</a>
+                            <a class="button" href="tel:02946500999">Gọi ngay!</a>
                             <a href="/lien-he-chung-toi" class="garden_contact__phone">
                                 <span class="material-icons">call</span>
                                 <p>Liên hệ</p>
@@ -22,13 +22,6 @@
                     </div>
                 </div>
             </div>
-{{--            <div class="container is-hidden-desktop">--}}
-{{--                <div class="columns is-multiline is-variable is-2">--}}
-{{--                    <div class="column is-offset-one-fifth is-two-fifths" style="padding-top: .5rem; padding-bottom: .5rem">--}}
-{{--                        <img src="/assets/images/garden/san-vuon (1).jpg">--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
             <div class="content_garden_intro__right">
                 <div class="columns is-multiline is-variable is-3">
                     <div class="column is-offset-one-fifth is-two-fifths" style="padding-top: .5rem; padding-bottom: .5rem">
@@ -82,17 +75,17 @@
                     <div class="column is-one-third-tablet is-full-mobile">
                         <img src="/assets/images/garden/rong-rai.jpg">
                         <h3>Rộng rãi</h3>
-                        <p>Nhà nghỉ của chúng tôi mang đến một không gian ấm cúng và tiện nghi.</p>
+                        <p>Các tum có diện tích lớn, bàn ăn rộng rãi.</p>
                     </div>
                     <div class="column is-one-third-tablet is-full-mobile">
                         <img src="/assets/images/garden/thien-nhien.jpg">
                         <h3>Thiên nhiên</h3>
-                        <p>Nhà nghỉ của chúng tôi mang đến một không gian ấm cúng và tiện nghi.</p>
+                        <p>Nhiều cây cảnh, hòa mình với thiên nhiên.</p>
                     </div>
                     <div class="column is-one-third-tablet is-full-mobile">
                         <img src="/assets/images/garden/thoang-mat.jpg">
                         <h3>Thoáng mát</h3>
-                        <p>Nhà nghỉ của chúng tôi mang đến một không gian ấm cúng và tiện nghi.</p>
+                        <p>Sạch sẽ, gió mát, không gian đồng quê.</p>
                     </div>
                 </div>
             </div>
@@ -175,8 +168,8 @@
             </div>
             <div class="container is-max-desktop">
                 <div class="menu_contact">
-                    <a class="button" href="tel:0373496609">Bấm để gọi!</a>
-                    <a href="tel:0373496609" class="menu_contact__phone">
+                    <a class="button" href="tel:02946500999">Bấm để gọi!</a>
+                    <a href="tel:02946500999" class="menu_contact__phone">
                         <span class="material-icons">call</span>
                         <p>Liên hệ</p>
                     </a>

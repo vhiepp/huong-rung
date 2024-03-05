@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    @include('seo')
+
     @include('head')
 
     @yield('head')
@@ -17,9 +19,9 @@
 
     @include('footer')
 
-    <a href="tel:0373496609" class="item_circle call-btn-fixed is-hidden-tablet">
+    <a href="tel:02946500999" class="item_circle call-btn-fixed is-hidden-tablet">
         <span class="material-icons">call</span>
     </a>
-@include('script')
+    @include('script')
 </body>
 </html>

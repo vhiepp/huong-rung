@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('head')
-    <link rel="stylesheet" href="/assets/css/menu.css" />
+    <link rel="stylesheet" href="/assets/css/{{$cssVersion}}/menu.css" />
 @endsection
 
 @section('content')
@@ -11,9 +11,9 @@
                 <div class="columns is-desktop">
                     <div class="column content_menu_intro__left is-half-tablet is-two-fifths-widescreen">
                         <h1 class="menu_title">Món ăn</h1>
-                        <p class="menu_desc">Mỗi món ăn là sự kết hợp tinh tế giữa hương vị truyền thống và nguyên liệu tươi ngon, đảm bảo mang đến cho thực khách trải nghiệm ẩm thực đích thực và độc đáo.</p>
+                        <p class="menu_desc">Chuyên phục vụ các món ăn, ẩm thực 3 miền. Với đầy đủ các nguyên vật liệu và cách chế biến. Nhân viên phục vụ nhiệt tình, chu đáo.</p>
                         <div class="menu_contact">
-                            <a class="button" href="tel:0373496609">Đặt món ngay!</a>
+                            <a class="button" href="tel:02946500999">Đặt món ngay!</a>
                             <a href="/lien-he-chung-toi" class="menu_contact__phone">
                                 <span class="material-icons">call</span>
                                 <p>Liên hệ</p>
@@ -137,7 +137,7 @@
                             type: "fraction",
                         },
                         autoplay: {
-                            delay: 1900,
+                            delay: 1800,
                             disableOnInteraction: false,
                         },
                         navigation: true,
@@ -343,8 +343,8 @@
             </div>
             <div class="container is-max-widescreen" style="margin-top: 1.2rem; display: flex; justify-content: right; padding-right: 12px">
                 <div class="menu_contact">
-                    <a class="button" href="tel:0373496609">Bấm để gọi!</a>
-                    <a href="tel:0373496609" class="menu_contact__phone">
+                    <a class="button" href="tel:02946500999">Bấm để gọi!</a>
+                    <a href="/lien-he-chung-toi" class="menu_contact__phone">
                         <span class="material-icons">call</span>
                         <p>Liên hệ</p>
                     </a>

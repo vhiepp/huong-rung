@@ -10,7 +10,7 @@
             <ul class="navigate is-desktop is-hidden-mobile">
                 <li @isset($activePage) @if($activePage == 0) class="active" @endif @endisset><a href="/">Trang chủ</a></li>
                 <li @isset($activePage) @if($activePage == 1) class="active" @endif @endisset><a href="/khu-hoi-truong-to-chuc-tiec">Hội trường</a></li>
-{{--                <li @isset($activePage) @if($activePage == 2) class="active" @endif @endisset><a href="/khu-phong-lanh">Phòng lạnh</a></li>--}}
+                <li @isset($activePage) @if($activePage == 2) class="active" @endif @endisset><a href="/khu-phong-lanh">Phòng lạnh</a></li>
                 <li @isset($activePage) @if($activePage == 3) class="active" @endif @endisset><a href="/khu-san-vuon">Sân vườn</a></li>
                 <li @isset($activePage) @if($activePage == 4) class="active" @endif @endisset><a href="/mon-an-noi-bat">Món ăn</a></li>
                 <li @isset($activePage) @if($activePage == 5) class="active" @endif @endisset><a href="/nha-nghi">Nhà nghỉ</a></li>
@@ -34,7 +34,7 @@
                 <ul>
                     <li @isset($activePage) @if($activePage == 0) class="active" @endif @endisset><a href="/">Trang chủ</a></li>
                     <li @isset($activePage) @if($activePage == 1) class="active" @endif @endisset><a href="/khu-hoi-truong-to-chuc-tiec">Hội trường</a></li>
-                    {{--                <li @isset($activePage) @if($activePage == 2) class="active" @endif @endisset><a href="/khu-phong-lanh">Phòng lạnh</a></li>--}}
+                    <li @isset($activePage) @if($activePage == 2) class="active" @endif @endisset><a href="/khu-phong-lanh">Phòng lạnh</a></li>
                     <li @isset($activePage) @if($activePage == 3) class="active" @endif @endisset><a href="/khu-san-vuon">Sân vườn</a></li>
                     <li @isset($activePage) @if($activePage == 4) class="active" @endif @endisset><a href="/mon-an-noi-bat">Món ăn</a></li>
                     <li @isset($activePage) @if($activePage == 5) class="active" @endif @endisset><a href="/nha-nghi">Nhà nghỉ</a></li>
