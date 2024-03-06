@@ -137,10 +137,10 @@
             <div class="contact-area">
                 <div class="columns">
                     <div class="column">
-                        <p>0868 657 765</p>
+                        <p>02946 500 999</p>
                     </div>
                     <div class="column">
-                        <p>huongrung@gmail.com</p>
+                        <p>huongrunghomestay@gmail.com</p>
                     </div>
                 </div>
             </div>
