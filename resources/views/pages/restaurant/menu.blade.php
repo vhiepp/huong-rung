@@ -13,7 +13,7 @@
                         <h1 class="menu_title">Món ăn</h1>
                         <p class="menu_desc">Chuyên phục vụ các món ăn, ẩm thực 3 miền. Với đầy đủ các nguyên vật liệu và cách chế biến. Nhân viên phục vụ nhiệt tình, chu đáo.</p>
                         <div class="menu_contact">
-                            <a class="button" href="tel:02946500999">Đặt món ngay!</a>
+                            <a class="button" onclick="gtag_report_conversion('tel:02946500999')">Đặt món ngay!</a>
                             <a href="/lien-he-chung-toi" class="menu_contact__phone">
                                 <span class="material-icons">call</span>
                                 <p>Liên hệ</p>
@@ -343,7 +343,7 @@
             </div>
             <div class="container is-max-widescreen" style="margin-top: 1.2rem; display: flex; justify-content: right; padding-right: 12px">
                 <div class="menu_contact">
-                    <a class="button" href="tel:02946500999">Bấm để gọi!</a>
+                    <a class="button" onclick="gtag_report_conversion('tel:02946500999')">Bấm để gọi!</a>
                     <a href="/lien-he-chung-toi" class="menu_contact__phone">
                         <span class="material-icons">call</span>
                         <p>Liên hệ</p>

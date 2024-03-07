@@ -13,7 +13,7 @@
                         <h1 class="garden_title">Sân vườn</h1>
                         <p class="garden_desc">Sân vườn rộng rãi, sạch sẽ, thoáng gió. Các Tum mái lá mát mẻ, cảm giác hòa mình với thiên nhiên.</p>
                         <div class="garden_contact">
-                            <a class="button" href="tel:02946500999">Gọi ngay!</a>
+                            <a class="button" onclick="gtag_report_conversion('tel:02946500999')">Gọi ngay!</a>
                             <a href="/lien-he-chung-toi" class="garden_contact__phone">
                                 <span class="material-icons">call</span>
                                 <p>Liên hệ</p>
@@ -168,8 +168,8 @@
             </div>
             <div class="container is-max-desktop">
                 <div class="menu_contact">
-                    <a class="button" href="tel:02946500999">Bấm để gọi!</a>
-                    <a href="tel:02946500999" class="menu_contact__phone">
+                    <a class="button" onclick="gtag_report_conversion('tel:02946500999')">Bấm để gọi!</a>
+                    <a onclick="gtag_report_conversion('tel:02946500999')" class="menu_contact__phone">
                         <span class="material-icons">call</span>
                         <p>Liên hệ</p>
                     </a>

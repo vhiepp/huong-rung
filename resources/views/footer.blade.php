@@ -12,7 +12,7 @@
                 </div>
                 <div class="footer_right__contact">
                     <span class="material-icons">phone</span>
-                    <a href="tel:02946500999" class="contact_quick__desc">02946 500 999</a>
+                    <a onclick="gtag_report_conversion('tel:02946500999')" class="contact_quick__desc">02946 500 999</a>
                 </div>
                 <div class="footer_right__contact">
                     <span class="material-icons">mail</span>

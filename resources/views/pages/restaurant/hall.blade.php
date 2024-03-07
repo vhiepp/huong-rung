@@ -21,7 +21,7 @@
                 <h2 class="hall_title">Đặc Tiệc - Sinh Nhật - Liên Hoan - Đám Cưới</h2>
                 <p class="hall_desc">Hội trường chuyên tổ chức tiệc, rộng rãi, có sức chứa lớn, không gian thoải mái có máy lạnh. Có sân khấu cho các trương trình trong bữa tiệc. Nhân viên phục vụ nhiệt tình, chu đáo. Thích hợp tổ chức các loại tiệc.</p>
                 <div class="hall_contact">
-                    <a class="button" href="tel:02946500999">Đặt tiệc ngay!</a>
+                    <a class="button" onclick="gtag_report_conversion('tel:02946500999')">Đặt tiệc ngay!</a>
                     <a href="/lien-he-chung-toi" class="hall_contact__phone">
                         <span class="material-icons">call</span>
                         <p>Liên hệ</p>

@@ -10,6 +10,8 @@
 
     @yield('head')
 
+    @include('google')
+
 </head>
 <body>
 

@@ -14,7 +14,7 @@
                         <h5>Phòng đơn - Phòng đôi</h5>
                         <p class="desc">Nhà nghỉ của chúng tôi mang đến một không gian ấm cúng và tiện nghi. Được trang bị đầy đủ tiện ích hiện đại du khách có thể thưởng thức kỳ nghỉ của mình.</p>
                         <div class="motel_contact">
-                            <a class="button" href="tel:02946500999">Đặt phòng ngay!</a>
+                            <a class="button" onclick="gtag_report_conversion('tel:02946500999')">Đặt phòng ngay!</a>
                             <a href="/lien-he-chung-toi" class="motel_contact__phone">
                                 <span class="material-icons">call</span>
                                 <p>Liên hệ</p>
